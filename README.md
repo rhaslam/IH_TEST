@@ -2,7 +2,7 @@ Software Engineer Evaluation
 ============================
 Welcome to the second phase of our hiring process. If you've been invited to participate in this evaluation, it means that we found your resume to be interesting, and at least on paper, we believe you would be a good fit for our team.
 
-Our team is muti-diciplinary. We support Intermountain's ERP, HCM, SCM, EPM, WMS functions. There are severl large, commecial software suites that are utilized as the backbone for the work. These systems need direct care and maintenance, and some of them even provide for native customization. Our team also maintains the integrations to these systems. Finally, there also exist 100% custom solutions that either augment processes for the large systems, or fill business needs where commercial solutions either don't meet business requirements or don't exist.
+Our team is muti-diciplinary. We support Intermountain's ERP, HCM, SCM, EPM, WMS functions. There are several large, commecial software suites that are utilized as the backbone for the work. These systems need direct care and maintenance, and some of them even provide for native customization. Our team also maintains the integrations to these systems. Finally, there also exist 100% custom solutions that either augment processes for the large systems, or fill business needs where commercial solutions either don't meet business requirements or don't exist.
 
 Technologies
 ============
