@@ -1,0 +1,21 @@
+
+Using the Hyperion Essbase script language, do the following:
+
+ 1. For Business Unit 10200 and Department 12300, create a basic calculation script where you calculate the Final Budget amount of 400100 from the rate of 400100 
+ multiplied by the base of 600100 for each period in the 2019 Fiscal Year.
+ 
+FIX (400100Rate @DESCENDANTS(10200))
+	CALC DIM (Month, 400100Rate)
+ENDFIX
+
+FIX (Budget @DESCENDANTS(10200)
+	CALC DIM (Month * Budget*400100Rate)
+ENDFIX
+	
+ 
+ 2. Create a script where you aggregate BusUnit and Departments for Budget, Final, Amount, 2019, all periods, all accounts.
+FIX (Business Unit, Department)
+	CALC (DIM Budget, Final, Amount, 2019, Accounts)
+ENDFIX
+
+

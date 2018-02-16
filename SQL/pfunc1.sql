@@ -1,0 +1,14 @@
+insert into ih_test.customer Values(1, "Sandy City",	"9010");
+insert into ih_test.customer Values(2, "University of Utah","8148231");
+insert into ih_test.customer Values(3, "Utah Valley University","6123498");
+insert into ih_test.customer_detail Values(1, "9010","100 Century Blvd","Sandy","UT","84070","801-612-9632");
+insert into ih_test.customer_detail Values(2,"8148231","312 Presidents Circle",	"Salt Lake City","UT","84112","801-422-4990");
+insert into ih_test.customer_detail Values(3,"6123498", "717 University Ave.","Orem","UT","840234","285-213-9000");
+insert into ih_test.purchases values (1,	"8148231",	"10924",	"Basketball",	20,	19.98);
+insert into ih_test.purchases values (2,	"9010",	    "10847",	"Soccer Ball",	10,	21.95);
+insert into ih_test.purchases values (3,	"8148231",	"10847",	"Soccer Ball",	8,	24.49);
+insert into ih_test.purchases values (4,	"6123498",	"10924",	"Basketball",	6,	31.12);
+insert into ih_test.purchases values (5,	"6123498",	"10847",	"Soccer Ball",	4,	22.95);
+insert into ih_test.purchases values (6,	"8148231",	"981234",	"Softball",	   12,	14.32);
+insert into ih_test.purchases values (7,	"8148231",	"10924",	"Basketball",	12,	19.98);
+insert into ih_test.purchases values (8,	"8148231",	"10847",	"Soccer Ball",	2,	31.15);
